@@ -1,49 +1,52 @@
 // task 1- Employee information system Requirements
 
-// let employee = {
-//     name: prompt("Enter Employee Name"),
-//     age: Number(prompt("Enter Employee Age")),
-//     department: prompt("Enter Employee Department"),
-//     salary: Number(prompt("Enter Employee Salary"))
-// };
+let employee = {
+    name: prompt("Enter Employee Name"),
+    age: Number(prompt("Enter Employee Age")),
+    department: prompt("Enter Employee Department"),
+    salary: Number(prompt("Enter Employee Salary"))
+};
 
-// console.log(employee);
+console.log(employee);
 
-// if (employee.salary > 30000) {
-//     console.log("Eligible for Bonus");
-// } else {
-//     console.log("Not Eligible");
-// }
+if (employee.salary > 30000) {
+    console.log("Eligible for Bonus");
+} else {
+    console.log("Not Eligible");
+}
+
 
 // task 2- Supermarket Billing Requirments
 
-// let price = Number(prompt("Enter Product Price"));
-// let qauntity = Number(prompt("Enter Quantity"));
+let price = Number(prompt("Enter Product Price"));
+let qauntity = Number(prompt("Enter Quantity"));
 
-// let total = price * quantity;
+let total = price * quantity;
 
-// if (total > 5000) {
-//     total = total - (total * 10 / 100);
-// }
+if (total > 5000) {
+    total = total - (total * 10 / 100);
+}
 
-// console.log("Final Amount:", total);
+console.log("Final Amount:", total);
 
-// Student Result Portal Requirement
 
-// let marks = Number(prompt("Enter Marks"));
+// task 3- Student Result Portal Requirement
 
-// if (marks >= 90) {
-//     console.log("Grade A");
-// }
-// else if (marks >= 75) {
-//     console.log("Grade B");
-// }
-// else if (marks >= 50) {
-//     console.log("Grade C");
-// }
-// else {
-//     console.log("Fail");
-// }
+let marks = Number(prompt("Enter Marks"));
+
+if (marks >= 90) {
+    console.log("Grade A");
+}
+else if (marks >= 75) {
+    console.log("Grade B");
+}
+else if (marks >= 50) {
+    console.log("Grade C");
+}
+else {
+    console.log("Fail");
+}
+
 
 // task 4 - Bank ATM Eligiblity Requirements
 
@@ -55,6 +58,7 @@ if (withdrawalAmount <= balance) {
 } else {
     console.log("Insufficient Balance");
 }
+
 
 // task 5- Login Validation Requirements
 
@@ -70,6 +74,7 @@ if (user === username && pass === password) {
     console.log("Invalid Username or Password");
 }
 
+
 // task 6- Online Food Order Requirements
 
 let foods = ["Pizza", "Burger", "Pasta", "Sandwich", "Noodles", "Dosa", "Biryani", "Ice Cream"];
@@ -81,6 +86,7 @@ console.log("Total Items:", foods.length);
 for (let item of foods) {
     console.log(item);
 }
+
 
 // task 7- Company Employee Directory Requirements
 
@@ -114,6 +120,7 @@ switch (trafficlight) {
     default:
         console.log("Invalid Signal");
 }
+
 
 // task 9- Age Category Checker Requirements
 
